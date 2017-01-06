@@ -1,0 +1,530 @@
+#include <iostream>
+#include <Windows.h>
+#include <cstdlib>
+
+int rand();
+int muzyka = false;
+using namespace std;
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+int losuj( int x, int y ) {
+	x = x;
+	y = y;
+	int z = x+(rand()%(y-x+1));
+	return z;
+}
+int limiter(int id)
+{
+	switch(id)
+	{
+		case 0:
+		system( "cls" );
+		cout<<"============================="<<endl;
+		cout<<"|Alan Walker - Sing Me Sleep|"<<endl;
+		cout<<"============================="<<endl;
+		cout<<"Program Maded by: Kostrubec Szymon"<<endl;	
+		cout<<"          ||||"<<endl;	
+		cout<<"          ||||      ||||"<<endl;	
+		cout<<"||||      ||||      ||||"<<endl;
+		cout<<"|||| |||| |||| |||| |||| "<<endl;
+		cout<<"|||| |||| |||| |||| |||| "<<endl;
+		cout<<"|||| |||| |||| |||| |||| ||||"<<endl;
+		cout<<"|||| |||| |||| |||| |||| ||||"<<endl;
+		cout<<"|||| |||| |||| |||| |||| ||||"<<endl;
+	    cout<<"|||| |||| |||| |||| |||| ||||"<<endl;;
+		cout<<"|||| |||| |||| |||| |||| ||||"<<endl;
+		cout<<"|||| |||| |||| |||| |||| ||||"<<endl;
+		cout<<"|||| |||| |||| |||| |||| ||||"<<endl;
+		break;
+		case 1:
+		system( "cls" );
+		cout<<"============================="<<endl;
+		cout<<"|Alan Walker - Sing Me Sleep|"<<endl;
+		cout<<"============================="<<endl;
+		cout<<"Program Maded by: Kostrubec Szymon"<<endl;
+		cout<<"     ||||"<<endl;	
+		cout<<"     ||||      ||||"<<endl;	
+		cout<<"|||| ||||      ||||"<<endl;
+		cout<<"|||| |||| |||| |||| |||| "<<endl;
+		cout<<"|||| |||| |||| |||| |||| "<<endl;
+		cout<<"|||| |||| |||| |||| |||| "<<endl;
+		cout<<"|||| |||| |||| |||| |||| "<<endl;
+		cout<<"|||| |||| |||| |||| |||| "<<endl;
+	    cout<<"|||| |||| |||| |||| |||| ||||"<<endl;;
+		cout<<"|||| |||| |||| |||| |||| ||||"<<endl;
+		cout<<"|||| |||| |||| |||| |||| ||||"<<endl;
+		cout<<"|||| |||| |||| |||| |||| ||||"<<endl;
+		break;
+		case 2:
+		system( "cls" );	
+		cout<<"============================="<<endl;
+		cout<<"|Alan Walker - Sing Me Sleep|"<<endl;
+		cout<<"============================="<<endl;
+		cout<<"Program Maded by: Kostrubec Szymon"<<endl;	
+		cout<<"          ||||"<<endl;	
+		cout<<"||||      ||||"<<endl;	
+		cout<<"|||| |||| ||||"<<endl;
+		cout<<"|||| |||| |||| |||| |||| "<<endl;
+		cout<<"|||| |||| |||| |||| |||| "<<endl;
+		cout<<"|||| |||| |||| |||| |||| ||||"<<endl;
+		cout<<"|||| |||| |||| |||| |||| ||||"<<endl;
+		cout<<"|||| |||| |||| |||| |||| ||||"<<endl;
+	    cout<<"|||| |||| |||| |||| |||| ||||"<<endl;;
+		cout<<"|||| |||| |||| |||| |||| ||||"<<endl;
+		cout<<"|||| |||| |||| |||| |||| ||||"<<endl;
+		cout<<"|||| |||| |||| |||| |||| ||||"<<endl;
+		break;
+		case 3:
+		system( "cls" );	
+		cout<<"============================="<<endl;
+		cout<<"|Alan Walker - Sing Me Sleep|"<<endl;
+		cout<<"============================="<<endl;
+		cout<<"Program Maded by: Kostrubec Szymon"<<endl;		
+		cout<<"                    ||||"<<endl;	
+		cout<<"||||                ||||"<<endl;	
+		cout<<"||||           |||| ||||"<<endl;
+		cout<<"||||           |||| |||| ||||"<<endl;
+		cout<<"||||      |||| |||| |||| ||||"<<endl;
+		cout<<"|||| |||| |||| |||| |||| ||||"<<endl;
+		cout<<"|||| |||| |||| |||| |||| ||||"<<endl;
+		cout<<"|||| |||| |||| |||| |||| ||||"<<endl;
+	    cout<<"|||| |||| |||| |||| |||| ||||"<<endl;;
+		cout<<"|||| |||| |||| |||| |||| ||||"<<endl;
+		cout<<"|||| |||| |||| |||| |||| ||||"<<endl;
+		cout<<"|||| |||| |||| |||| |||| ||||"<<endl;
+		break;
+	}	
+}
+void C1()
+{
+	Beep(256,500);//C1
+}
+void D()
+{
+	Beep(288,500);//D
+}
+void E()
+{
+	Beep(320,500);//E
+}
+void F()
+{
+	Beep(341,500);//F
+}
+void G()
+{
+	Beep(384,500);//G
+}
+void A()
+{
+	Beep(427,500);//A
+}
+void EK()
+{
+	Beep(320,300);//E
+}
+void FK()
+{
+	Beep(341,300);//F
+}
+void GK()
+{
+	Beep(384,300);//G
+}
+void AK()
+{
+	Beep(427,300);//A
+}
+void ED()
+{
+	Beep(320,800);//E
+}
+void FD()
+{
+	Beep(341,800);//F
+}
+void GD()
+{
+	Beep(384,800);//G
+}
+void AD()
+{
+	Beep(427,800);//A
+}
+void EBK()
+{
+	Beep(320,200);//E
+}
+void FBK()
+{
+	Beep(341,200);//F
+}
+void GBK()
+{
+	Beep(384,200);//G
+}
+void ABK()
+{
+	Beep(427,200);//A
+}
+void H()
+{
+	Beep(480,500);//H
+}
+void HK()
+{
+	Beep(480,300);//H
+}
+void C2()
+{
+	Beep(512,500);//C2
+}
+void D2()
+{
+	Beep(576,500);//C2
+}
+void CIS()
+{
+	Beep(273,500);//C#
+}
+void DIS()
+{
+	Beep(307,500);//D#
+}
+void FIS()
+{
+	Beep(358,500);//jol
+}
+void GIS()
+{
+	Beep(410,500);//jol
+}
+void B()
+{
+	Beep(448,500);//jol
+}
+void DIS2()
+{
+	Beep(614,500);//D#
+}
+void CIS2()
+{
+	Beep(546,500);//C#
+}
+void fastF()
+{
+	Beep(341,300);//F
+}
+void B2()
+{
+	Beep(896,500);//jol
+}
+void F2()
+{
+	Beep(682,500);//F
+}
+void G2()
+{
+	Beep(768,500);//G
+}
+void G2K()
+{
+	Beep(768,300);//G
+}
+void G2BK()
+{
+	Beep(768,200);//G
+}
+void A2()
+{
+	Beep(854,500);//A
+}
+void F2D()
+{
+	Beep(682,800);//F
+}
+void G2D()
+{
+	Beep(768,800);//G
+}
+void A2D()
+{
+	Beep(854,800);//A
+}
+void A2K()
+{
+	Beep(854,300);//A
+}
+void A2BK()
+{
+	Beep(854,300);//A
+}
+void D2D()
+{
+	Beep(576,800);//C2
+}
+void C2D()
+{
+	Beep(512,800);//C2
+}
+void D2K()
+{
+	Beep(576,300);//C2
+}
+void C2K()
+{
+	Beep(512,300);//C2
+}
+void F2K()
+{
+	Beep(682,300);//F
+}
+void FIS2K()
+{
+	Beep(716,300);//jol
+}
+void FIS2BK()
+{
+	Beep(716,200);//jol
+}
+void FIS2D()
+{
+	Beep(716,800);//jol
+}
+void E2()
+{
+	Beep(640,500);//E
+}
+void E2D()
+{
+	Beep(640,800);//E
+}
+void E2K()
+{
+	Beep(640,300);//E
+}
+void H2()
+{
+	Beep(960,500);//H
+}
+void H2K()
+{
+	Beep(860,300);//H
+}
+void H2BK()
+{
+	Beep(860,200);//H
+}
+void H2D()
+{
+	Beep(860,800);//H
+}
+void C3()
+{
+	Beep(768,500);//C3
+}
+void C3BK()
+{
+	Beep(768,200);//C3
+}
+void D3()
+{
+	Beep(864,500);//D3
+}
+void C3K()
+{
+	Beep(768,300);//C3
+}
+void D3K()
+{
+	Beep(864,300);//D3
+}
+void C3D()
+{
+	Beep(768,800);//C3
+}
+void D3D()
+{
+	Beep(864,800);//D3
+}
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+void AKORD()
+{
+	Beep(320,1200);//E
+	Sleep(10);
+}
+void MUZYKA()
+{
+	if(muzyka == false)
+	{
+		muzyka = true;	
+		limiter(losuj(0,4));G2K();
+		limiter(losuj(0,4));G2K();
+		limiter(losuj(0,4));E2K();
+		limiter(losuj(0,4));E2K();
+		limiter(losuj(0,4));FIS2K(); 
+		limiter(losuj(0,4));FIS2K();
+		limiter(losuj(0,4));D2K();
+		limiter(losuj(0,4));D2K();
+		limiter(losuj(0,4));E2D();
+		
+		limiter(losuj(0,4));E2K();
+		limiter(losuj(0,4));G2K();
+		limiter(losuj(0,4));G2K();
+		limiter(losuj(0,4));E2K();
+		limiter(losuj(0,4));E2K();
+		limiter(losuj(0,4));FIS2K();
+		limiter(losuj(0,4));FIS2K();
+		limiter(losuj(0,4));D2K();
+		limiter(losuj(0,4));D2K();
+		limiter(losuj(0,4));C2D();
+		
+		limiter(losuj(0,4));E2K();
+		limiter(losuj(0,4));G2K();
+		limiter(losuj(0,4));G2K();
+		limiter(losuj(0,4));E2K();
+		limiter(losuj(0,4));E2K();
+		limiter(losuj(0,4));FIS2K();
+		limiter(losuj(0,4));FIS2K();
+		limiter(losuj(0,4));D2K();
+		limiter(losuj(0,4));D2K();
+		limiter(losuj(0,4));E2D();
+		
+		limiter(losuj(0,4));G2K();
+		limiter(losuj(0,4));G2K();
+		limiter(losuj(0,4));E2K();
+		limiter(losuj(0,4));E2K();
+		limiter(losuj(0,4));FIS2K(); 
+		limiter(losuj(0,4));FIS2K();
+		limiter(losuj(0,4));D2K();
+		limiter(losuj(0,4));D2K();
+		limiter(losuj(0,4));C2D();
+		
+		limiter(losuj(0,4));H2K();
+		limiter(losuj(0,4));E2K(); 
+		limiter(losuj(0,4));E2();
+		
+		limiter(losuj(0,4));H2K();
+		limiter(losuj(0,4));E2K(); 
+		limiter(losuj(0,4));E2();
+		
+		limiter(losuj(0,4));H2K();
+		limiter(losuj(0,4));E2K(); 
+		limiter(losuj(0,4));E2();
+		
+		limiter(losuj(0,4));H2K();
+		limiter(losuj(0,4));E2K(); 
+		limiter(losuj(0,4));E2();
+		
+		limiter(losuj(0,4));D3();
+		limiter(losuj(0,4));C3();
+		limiter(losuj(0,4));H2K();
+		limiter(losuj(0,4));A2();
+		limiter(losuj(0,4));G2K(); 
+		limiter(losuj(0,4));E2(); 
+		limiter(losuj(0,4));C3();
+		limiter(losuj(0,4));H2K();
+		limiter(losuj(0,4));A2();
+		limiter(losuj(0,4));G2K();
+		limiter(losuj(0,4));E2();
+		
+		limiter(losuj(0,4));H2K();
+		limiter(losuj(0,4));E2K(); 
+		limiter(losuj(0,4));E2();
+		
+		limiter(losuj(0,4));H2K();
+		limiter(losuj(0,4));E2K(); 
+		limiter(losuj(0,4));E2();
+		
+		limiter(losuj(0,4));H2K();
+		limiter(losuj(0,4));E2K(); 
+		limiter(losuj(0,4));E2();
+		
+		limiter(losuj(0,4));H2K();
+		limiter(losuj(0,4));E2K(); 
+		limiter(losuj(0,4));E2();
+		
+		limiter(losuj(0,4));D3();
+		limiter(losuj(0,4));C3();
+		limiter(losuj(0,4));H2K();
+		limiter(losuj(0,4));A2();
+		limiter(losuj(0,4));G2K(); 
+		limiter(losuj(0,4));E2(); 
+		limiter(losuj(0,4));E2K();
+		limiter(losuj(0,4));C3();
+		limiter(losuj(0,4));H2K();
+		limiter(losuj(0,4));A2();
+		limiter(losuj(0,4));G2K();
+		limiter(losuj(0,4));E2();
+		
+		limiter(losuj(0,4));C3();
+		limiter(losuj(0,4));FIS2D();
+		limiter(losuj(0,4));FIS2K();
+		limiter(losuj(0,4));H2(); 
+		limiter(losuj(0,4));E2();
+		
+		limiter(losuj(0,4));C3();
+		limiter(losuj(0,4));FIS2D();
+		limiter(losuj(0,4));FIS2K();
+		limiter(losuj(0,4));H2D();
+		
+		limiter(losuj(0,4));D3();
+		limiter(losuj(0,4));H2();
+		limiter(losuj(0,4));C3();
+		limiter(losuj(0,4));FIS2D();
+		limiter(losuj(0,4));FIS2K();
+		limiter(losuj(0,4));H2(); 
+		limiter(losuj(0,4));E2();
+		
+		limiter(losuj(0,4));C3();
+		limiter(losuj(0,4));FIS2D();
+		limiter(losuj(0,4));G2K();
+		limiter(losuj(0,4)); G2D();
+		
+		limiter(losuj(0,4));GBK();
+		limiter(losuj(0,4));EBK();
+		limiter(losuj(0,4));GBK();
+		limiter(losuj(0,4));AK(); 
+		limiter(losuj(0,4));GK();
+		limiter(losuj(0,4));H();
+		limiter(losuj(0,4));HK();
+		limiter(losuj(0,4));D2();
+		limiter(losuj(0,4));G2K();
+		limiter(losuj(0,4));FIS2BK();
+		limiter(losuj(0,4));D2K();
+		limiter(losuj(0,4));HK();
+		limiter(losuj(0,4));C3BK();
+		limiter(losuj(0,4));H2BK();
+		limiter(losuj(0,4));G2BK();
+		limiter(losuj(0,4));FIS2K();
+		
+		limiter(losuj(0,4));GBK();
+		limiter(losuj(0,4));EBK();
+		limiter(losuj(0,4));GBK();
+		limiter(losuj(0,4));AK(); 
+		limiter(losuj(0,4));GK();
+		limiter(losuj(0,4));H();
+		limiter(losuj(0,4));HK();
+		limiter(losuj(0,4));D2();
+		limiter(losuj(0,4));G2K();
+		limiter(losuj(0,4));FIS2BK();
+		limiter(losuj(0,4));D2K();
+		limiter(losuj(0,4));HK();
+		limiter(losuj(0,4));C3BK();
+		limiter(losuj(0,4));H2BK();
+		limiter(losuj(0,4));G2BK();
+		limiter(losuj(0,4));FIS2K();
+		muzyka = false;
+	}
+}
+void menu()
+{
+	cout<<"============================="<<endl;
+	cout<<"|Alan Walker - Sing Me Sleep|"<<endl;
+	cout<<"============================="<<endl;
+	cout<<"Program Maded by: Kostrubec Szymon"<<endl;
+}
+int main(int argc, char** argv) {
+	menu();
+	MUZYKA();
+	return 0;
+}
