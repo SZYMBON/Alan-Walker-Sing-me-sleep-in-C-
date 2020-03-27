@@ -521,7 +521,7 @@ void menu()
 	cout<<"============================="<<endl;
 	cout<<"|Alan Walker - Sing Me Sleep|"<<endl;
 	cout<<"============================="<<endl;
-	cout<<"Program Maded by: Kostrubiec Szymon"<<endl;
+	cout<<"Program made by: Kostrubiec Szymon"<<endl;
 }
 int main(int argc, char** argv) {
 	menu();
